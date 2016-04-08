@@ -1,8 +1,15 @@
 import React from 'react';
-import AppActions from '../actions/app-actions'
+import AppActions from '../actions/app-actions';
+import Catalog from './app-catalog';
+import Cart from './app-cart';
 
 export default class App extends React.Component {
   render() {
-    return <h1 onClick={AppActions.removeItem.bind(null, 'someItem')}>React Flux Architecture</h1>
+    return (
+      <div className="containter">
+        <Catalog />
+        <Cart />
+      </div>
+    )
   }
 }
