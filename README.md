@@ -5,4 +5,5 @@
 "06.04.2016 - 15:50 - Lesson3: create files - app-constants.js, app-actions.js; update file app.js" 
 "06.04.2016 - 17:40 - Lesson4: create file - app-store.js" 
 "08.04.2016 - 12:45 - Lesson5: create files - app-catalog.js, app-catalogitem.js, app-cart.js, app-cart-item.js, app-cart-button.js; update file: app.js; creating web-store" 
+"08.04.2016 - 14:05 - Lesson6: create file - StoreWatchMixin.js; update files: app-catalog.js, app-cart.js, app-catalogitem" 
 
