@@ -8,4 +8,6 @@
 "08.04.2016 - 14:05 - Lesson6: create file - StoreWatchMixin.js; update files: app-catalog.js, app-cart.js, app-catalogitem" 
 "08.04.2016 - 15:20 - Lesson8: create files - app-template.js, app-header.js, app-cartsummary.js; update file: app.js; divide webpage into two parts - catalog-page and cart-page" 
 "11.04.2016 - 10:00 - Lesson9: create file - catalogdetail.js; update files - app.js, app-cart.js, app-catalogitem.js; the description subpage added successfully" 
+"11.04.2016 - 11:15 - Lesson10: create file - cartAPI.js; update files - app-store.js; divide store into: cartAPI &store (change function into class methods)" 
+"11.04.2016 - 11:15 - end of the project" 
 
