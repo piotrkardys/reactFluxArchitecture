@@ -15,12 +15,17 @@ const Toolbar = (props) => {
 
 	return (
 		<div className="row" style={divStyle}>
-			<LeftIconComponent />
-			<TextComponent>We'd love to hear from you</TextComponent>
-			<ButtonComponent>Send message</ButtonComponent>
+			<LeftIconComponent>{props.info.icon}</LeftIconComponent>
+			<TextComponent>{props.info.text}</TextComponent>
+			<ButtonComponent>{props.info.textButton}</ButtonComponent>
 			<CloseXComponent />
 		</div>
 	);
 };
 //
+
+Toolbar.propTypes = {
+	info: React.PropTypes.object.isRequired
+}
+
 export default Toolbar;
