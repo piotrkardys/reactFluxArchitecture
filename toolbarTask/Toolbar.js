@@ -2,6 +2,7 @@ import React from 'react';
 import LeftIconComponent from './LeftIconComponent';
 import TextComponent from './TextComponent';
 import ButtonComponent from './ButtonComponent';
+import CloseXComponent from './CloseXComponent';
 
 const Toolbar = (props) => {
 	const divStyle = {
@@ -17,6 +18,7 @@ const Toolbar = (props) => {
 			<LeftIconComponent />
 			<TextComponent>We'd love to hear from you</TextComponent>
 			<ButtonComponent>Send message</ButtonComponent>
+			<CloseXComponent />
 		</div>
 	);
 };

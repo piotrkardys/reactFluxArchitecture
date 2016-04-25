@@ -1,5 +1,8 @@
 import React from 'react';
 
 export default (props) => {
-	return <div className="col-sm-5">{props.children}</div>
+	const textStyle = {
+		textAlign: 'right'
+	};
+	return <div style={textStyle} className="col-sm-5">{props.children}</div>
 };
