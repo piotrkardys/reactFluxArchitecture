@@ -1,5 +1,7 @@
 import React from 'react';
-
+import LeftIconComponent from './LeftIconComponent';
+import TextComponent from './TextComponent';
+import ButtonComponent from './ButtonComponent';
 
 const Toolbar = (props) => {
 	const divStyle = {
@@ -12,7 +14,9 @@ const Toolbar = (props) => {
 
 	return (
 		<div className="row" style={divStyle}>
-			{props.info}
+			<LeftIconComponent />
+			<TextComponent>We'd love to hear from you</TextComponent>
+			<ButtonComponent>Send message</ButtonComponent>
 		</div>
 	);
 };
