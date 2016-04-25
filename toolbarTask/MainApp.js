@@ -24,12 +24,12 @@ class MainApp extends React.Component {
 	update() {
 		this.setState({ open: !this.state.open });
 	}
-	
+
 	render() {
 		if (this.state.open) {
 			return (
 				<div>
-					<Toolbar info={toolbarInfoJSON} />
+					<Toolbar info={toolbarInfoJSON} update={this.update} />
 					<button style={buttonStyle} className="col-sm-2 col-md-1 btn btn-sm" onClick={this.update}><strong>Hide Toolbar</strong></button>
 				</div>
 			)

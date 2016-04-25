@@ -4,3 +4,4 @@
 „25.04.2016 11:30 – creating button, text and left icon component”
 „25.04.2016 12:00 – creating closeX and repairing icon and button class”
 „25.04.2016 13:15 – creating button for show/hide the toolbar”
+„25.04.2016 13:40 – creating the onClick update for the CloseXComponent”

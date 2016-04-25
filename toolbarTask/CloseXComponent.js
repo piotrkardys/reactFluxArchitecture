@@ -1,10 +1,6 @@
 import React from 'react';
 
-const onCloseClick = () => {
-	console.log('You clicked the X!');
-};
-
-export default () => {
+export default (props) => {
 	const buttonStyle = {
 		marginTop: '2px',
 		textAlign: 'right',
@@ -12,5 +8,5 @@ export default () => {
 		cursor: 'pointer',
 		float: 'right'
 	};
-	return <div style={buttonStyle} className="col-sm-1" onClick={onCloseClick}>X</div>
+	return <div style={buttonStyle} className="col-sm-1" onClick={props.update}>X</div>
 };

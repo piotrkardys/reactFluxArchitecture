@@ -18,7 +18,7 @@ const Toolbar = (props) => {
 			<LeftIconComponent>{props.info.icon}</LeftIconComponent>
 			<TextComponent>{props.info.text}</TextComponent>
 			<ButtonComponent>{props.info.textButton}</ButtonComponent>
-			<CloseXComponent />
+			<CloseXComponent update={props.update}/>
 		</div>
 	);
 };
