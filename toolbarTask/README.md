@@ -1,8 +1,9 @@
-﻿„TOOLBAR TASK”
-„25.04.2016 8:45 – start of the project”
-„25.04.2016 10:00 – project configuration; creating files: index.html, main.js, MainApp.js, Toolbar.js; styling the toolbar component”
-„25.04.2016 11:30 – creating button, text and left icon component”
-„25.04.2016 12:00 – creating closeX and repairing icon and button class”
-„25.04.2016 13:15 – creating button for show/hide the toolbar”
-„25.04.2016 13:40 – creating the onClick update for the CloseXComponent”
-„25.04.2016 13:40 – end of the project”
+﻿„TOOLBAR TASK – estimating time of processing project (including the changes): 6h25m ” 
+„25.04.2016 8:45 – start of the project” 
+„25.04.2016 10:00 – project configuration; creating files: index.html, main.js, MainApp.js, Toolbar.js; styling the toolbar component” 
+„25.04.2016 11:30 – creating button, text and left icon component” 
+„25.04.2016 12:00 – creating closeX and repairing icon and button class” 
+„25.04.2016 13:15 – creating button for show/hide the toolbar” 
+„25.04.2016 13:40 – creating the onClick update for the CloseXComponent” 
+„25.04.2016 13:40 – end of the project” 
+„27.04.2016 15:55 – changing functions which returned JSX into ES6 React classes & adding functionality to the 'Send message' button; update files” 

@@ -1,13 +1,24 @@
 import React from 'react';
 
-export default (props) => {
-	const buttonStyle = {
-		backgroundColor: '#33cccc',
-		marginTop: '2px'
-	};
-	return (
-		<button style={buttonStyle} className="col-sm-2 col-md-1 btn btn-sm" onClick={() => { console.log('Sent!') }}>
-			<strong>{props.children}</strong>
-		</button>
-	)
+const buttonStyle = {
+	backgroundColor: '#33cccc',
+	marginTop: '2px'
 };
+
+class ButtonComponent extends React.Component {
+	render() {
+		return (
+			<button 
+				style={buttonStyle} 
+				value={this.props.children} 
+				className="col-sm-2 col-md-1 btn btn-sm" 
+				onClick={this.props.buttonClickedChange}>
+
+				<strong>{this.props.children}</strong>
+				
+			</button>
+		)
+	}
+};
+
+export default ButtonComponent;

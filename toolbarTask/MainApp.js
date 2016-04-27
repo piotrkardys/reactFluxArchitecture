@@ -20,16 +20,21 @@ class MainApp extends React.Component {
 		super();
 		this.state = { open: false };
 		this.update = this.update.bind(this);
+		this.buttonClickedChange = this.buttonClickedChange.bind(this);
 	}
 	update() {
 		this.setState({ open: !this.state.open });
+	}
+	buttonClickedChange(buttonName) {
+		alert(buttonName.target.value);
+		//console.log(buttonName.target.value);
 	}
 
 	render() {
 		if (this.state.open) {
 			return (
 				<div>
-					<Toolbar info={toolbarInfoJSON} update={this.update} />
+					<Toolbar info={toolbarInfoJSON} update={this.update} buttonClickedChange={this.buttonClickedChange} />
 					<button style={buttonStyle} className="col-sm-2 col-md-1 btn btn-sm" onClick={this.update}><strong>Hide Toolbar</strong></button>
 				</div>
 			)
